@@ -1,1 +1,1 @@
-nams = "Anurag";
+let nams = "Anurag";
