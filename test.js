@@ -27,7 +27,7 @@ const startExec = async () => {
 	const students = await getStudentsFromDB();
 
 	for (let student of students) {
-		if (student && student.attendance) totalAttendance += student.attendance;
+		if ( student?.attendance) totalAttendance += student.attendance;
 	}
 
 	let avgAttendance = totalAttendance / students.length;
